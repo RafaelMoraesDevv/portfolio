@@ -13,7 +13,7 @@
   <!-- css -->
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container flex-lg-column">
@@ -60,11 +60,13 @@
     <section id="home" class="full-height px-lg-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
-            <h1 class="display-4 fw-bold">Densenvolvedor <span class="text-brand">WEB Front - End.</span></h1>
-            <p class="lead mt-2 mb-4">Olá, meu nome é Rafael e sou estudante de tecnologia, formado na Universidade Anhanguera.</p>
-            <a href="#" class="btn btn-brand me-3">Explore Meu Trabalho</a>
-            <a href="#" class="link-custom">Cell: (11) 948095075</a>
+          <div class="col-lg-10">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">Densenvolvedor <span class="text-brand">WEB Front - End.</span></h1>
+            <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Olá, meu nome é Rafael e sou estudante de tecnologia, formado na Universidade Anhanguera.</p>
+            <div data-aos="fade-up" data-aos-delay="600">
+              <a href="#" class="btn btn-brand me-3">Explore Meu Trabalho</a>
+              <a href="#" class="link-custom">Cell: (11) 948095075</a>
+            </div>
           </div>
         </div>
       </div>
@@ -75,15 +77,15 @@
     <section id="services" class="full-height px-lg-5">
       <div class="container">
 
-        <div class="row pb-4">
+        <div class="row pb-4" data-aos="fade-up">
           <div class="col-lg-8">
             <h6 class="text-brand">Serviços</h6>
             <h1>Serviços que presto</h1>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row gy-4">
+          <div class="col-md-4" data-aos="fade-up">
             <div class="service p-4 bg-base rounded-4 shadow-effect">
               <div class="iconbox rounded-4">
                 <i class="las la-exclamation-triangle"></i>
@@ -94,7 +96,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
             <div class="service p-4 bg-base rounded-4 shadow-effect">
               <div class="iconbox rounded-4">
                 <i class="las la-exclamation-triangle"></i>
@@ -105,7 +107,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
             <div class="service p-4 bg-base rounded-4 shadow-effect">
               <div class="iconbox rounded-4">
                 <i class="las la-exclamation-triangle"></i>
@@ -119,6 +121,73 @@
       </div>
     </section>
     <!-- //SERVICES -->
+
+    <!-- WORK -->
+    <section id="work" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">Trabalho</h6>
+            <h1>Meus projetos recentes</h1>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/project-1.jpg" alt="Projeto 1">
+              </div>
+              <div class="card-custom-content p-4">
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error, natus sapiente tenetur atque voluptas repudiandae voluptatem velit fuga! Autem, suscipit! Maiores reiciendis, totam nam veniam et laudantium ipsa facilis.</p>
+                <a href="#" class="link-custom">Lorem ipsum</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/project-2.png" alt="Projeto 1">
+              </div>
+              <div class="card-custom-content p-4">
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error, natus sapiente tenetur atque voluptas repudiandae voluptatem velit fuga! Autem, suscipit! Maiores reiciendis, totam nam veniam et laudantium ipsa facilis.</p>
+                <a href="#" class="link-custom">Lorem ipsum</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/project-3.png" alt="Projeto 1">
+              </div>
+              <div class="card-custom-content p-4">
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error, natus sapiente tenetur atque voluptas repudiandae voluptatem velit fuga! Autem, suscipit! Maiores reiciendis, totam nam veniam et laudantium ipsa facilis.</p>
+                <a href="#" class="link-custom">Lorem ipsum</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/project-4.png" alt="Projeto 1">
+              </div>
+              <div class="card-custom-content p-4">
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error, natus sapiente tenetur atque voluptas repudiandae voluptatem velit fuga! Autem, suscipit! Maiores reiciendis, totam nam veniam et laudantium ipsa facilis.</p>
+                <a href="#" class="link-custom">Lorem ipsum</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //WORK -->
   </div>
   <!-- //CONTENT WRAPPER -->
 
