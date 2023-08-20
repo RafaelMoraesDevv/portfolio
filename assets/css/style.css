@@ -64,7 +64,7 @@ img {
   box-shadow: -6px 6px 0 0 var(--color-brand);
 }
 
-.iconbox {
+.iconbox, .profile {
   width: 60px;
   height: 60px;
   display: flex;
@@ -73,6 +73,17 @@ img {
   font-size: 32px;
   background-color: var(--color-brand);
   color: var(--color-base);
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px; /* Ajuste conforme necessário */
+  right: 20px; /* Ajuste conforme necessário */
+  z-index: 1000; /* Certifique-se de que este valor seja maior do que o conteúdo regular */
+}
+
+.whatsapp-btn i {
+  font-size: 30px;
 }
 
 /*Navbar*/
